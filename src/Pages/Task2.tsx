@@ -52,7 +52,7 @@ export default function Task2() {
 
   return (
     <div>
-      <h2>Task 2 Page</h2>
+      <h2>Task 2</h2>
 
       <form onSubmit={handleEncrypt}>
         <label htmlFor="textInput">Text to encrypt:</label>
