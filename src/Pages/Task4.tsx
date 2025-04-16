@@ -68,8 +68,7 @@ const playfairEncrypt = (text: string, matrix: string[][]): string => {
 
 export default function Task4() {
   const [text, setText] = useState("");
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const [matrix, setMatrix] = useState<string[][]>(createPlayfairMatrix());
+  const [matrix] = useState<string[][]>(createPlayfairMatrix());
   const [result, setResult] = useState("");
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
